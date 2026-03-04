@@ -11,6 +11,7 @@ ui:
   title: STFC Cloud Status Page
   description: Public status page for STFC Cloud services
   default-sort-by: group
+  favicon.default: /assets/favicon.ico
 
 # https://www.datetimeapp.com/
 # ISO 8601 timestamps (or RFC3339)

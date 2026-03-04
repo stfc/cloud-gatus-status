@@ -10,6 +10,7 @@ services:
       - POSTGRES_DB=${POSTGRES_DB}
     volumes:
       - ./config-dev:/config
+      - ./assets:/assets
     networks:
       - web
     depends_on:

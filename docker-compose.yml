@@ -11,6 +11,7 @@ services:
       - VIRTUAL_HOST=130.246.81.39
     volumes:
       - ./config:/config
+      - ./assets:/assets
     networks:
       - web
     depends_on:
