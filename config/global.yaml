@@ -25,6 +25,7 @@ announcements:
     type: information
     message : |
       Upcoming At-Risk Period scheduled for 30th March to 2nd April. This will result in the Cloud operating at risk during this time, whilst we carry out essential work on the Cloud control plane which will allow the continued development of STFC Cloud services. We do not anticipate interruption to STFC Cloud services; however any intervention carries some risk of disruption, hence the operating at risk during this time. Please see the following link for details on these days: https://stfc.atlassian.net/wiki/spaces/CLOUDKB/pages/1125154840/2026+-+30th+March+to+2nd+April+-+At+Risk If you have any questions or concerns about this work, please contact us via cloud-support@stfc.ac.uk
+    archived: true
   - timestamp: 2025-12-09T17:00:00.000+00:00
     type: information
     message: |
