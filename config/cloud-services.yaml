@@ -18,3 +18,7 @@ endpoints:
     - name: Harbor
       url: http://harbor.stfc.ac.uk/
       <<: *defaults_cloud_services
+
+    - name: Grafana
+      url: http://grafana.nubes.rl.ac.uk/api/health
+      <<: *defaults_cloud_services
