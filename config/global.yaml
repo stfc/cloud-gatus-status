@@ -21,6 +21,10 @@ ui:
 # operational: Indicates resolved issues or normal operations (green theme)
 # none: Neutral announcements with no specific severity (gray theme, default if none are specified)
 announcements:
+  - timestamp: 2026-04-29T12:00:00.000+00:00
+    type: information
+    message: |
+      Upcoming planned outage work for essential maintenance between the 6th and the 10th of July (inclusive), as per our list of important upcoming dates: https://stfc.atlassian.net/wiki/spaces/CLOUDKB/pages/982548867/Important+DatesDuring this window. OpenStack services and/or virtual machines will be offline and unavailable. Users should make alternative arrangements in advance for this entire maintenance window.
   - timestamp: 2026-03-18T12:00:00.000+00:00
     type: information
     message : |
