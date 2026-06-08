@@ -21,10 +21,10 @@ ui:
 # operational: Indicates resolved issues or normal operations (green theme)
 # none: Neutral announcements with no specific severity (gray theme, default if none are specified)
 announcements:
-  - timestamp: 2026-08-06T9:00:00.000+00:00
+  - timestamp: 2026-06-08T9:00:00.000+00:00
     type: outage
     message: | 
-      Cinder/Arided Partial Outage: Affecting Services: Azimuth, Harbor, Dockerhub Cache, Cinder & Manila Storage (Including existing VMs with storage mounts). Services Distruption started Early Morning Sunday. Work undergoing to fix fault switch and bring underlying ceph storage services back online ASAP.  
+      Cinder/Arided Partial Outage: Affecting Services: Azimuth, Harbor, Dockerhub Cache, Cinder & Manila Storage (Including existing VMs with storage mounts). Services Distruption started Early Morning Sunday. Work undergoing to fix faulty switch and bring underlying ceph storage services back online ASAP.  
   - timestamp: 2026-04-29T12:00:00.000+00:00
     type: information
     message: |
