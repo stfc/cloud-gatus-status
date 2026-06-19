@@ -21,7 +21,7 @@ ui:
 # operational: Indicates resolved issues or normal operations (green theme)
 # none: Neutral announcements with no specific severity (gray theme, default if none are specified)
 announcements:
-  - timestamp: 2026-19-06T9:00:00.000+00:00
+  - timestamp: 2026-06-19T9:00:00.000+00:00
     type: outage
     message: |
       RAL Power Blip: Please be aware that we are still recovering from a data-centre power incident that occurred 18/06/2026. Further information to follow
