@@ -21,10 +21,10 @@ ui:
 # operational: Indicates resolved issues or normal operations (green theme)
 # none: Neutral announcements with no specific severity (gray theme, default if none are specified)
 announcements:
-  - timestamp: 2026-06-09T9:00:00.000+00:00
-    type: information
+  - timestamp: 2026-06-19T9:00:00.000+00:00
+    type: outage
     message: |
-      Cinder/Arided Partial Outage: Services have been restored. Please let us know of any issues by raising a ticket to cloud-support@stfc.ac.uk
+      RAL Power Blip: Please be aware that we are still recovering from a data-centre power incident that occurred 18/06/2026. Further information to follow
   - timestamp: 2026-04-29T12:00:00.000+00:00
     type: information
     message: |
