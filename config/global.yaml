@@ -21,10 +21,14 @@ ui:
 # operational: Indicates resolved issues or normal operations (green theme)
 # none: Neutral announcements with no specific severity (gray theme, default if none are specified)
 announcements:
-  - timestamp: 2026-06-19T9:00:00.000+00:00
+  - timestamp: 2026-06-22T9:00:00.000+00:00
     type: outage
     message: |
-      RAL Power Blip: Please be aware that we are still recovering from a data-centre power incident that occurred 18/06/2026. Further information to follow
+      Cinder Volume I/O and FSCK Issues: We are aware of an incident where cinder volumes are failing to mount or are experiencing I/O issues with blocked writes following the RAL power incident. If you are experiencing this please open a ticket to cloud-support@stfc.ac.uk with the volume ID and Name   
+  - timestamp: 2026-06-19T9:00:00.000+00:00
+    type: information
+    message: |
+      RAL Power Blip: We have recovered from data-centre power incident that occurred 18/06/2026. You may find your VMs are shutoff, you are free to start them up yourselves. Please open a ticket to cloud-support@stfc.ac.uk if you are experiencing any issues 
   - timestamp: 2026-04-29T12:00:00.000+00:00
     type: information
     message: |
