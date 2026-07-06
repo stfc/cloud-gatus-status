@@ -21,18 +21,25 @@ ui:
 # operational: Indicates resolved issues or normal operations (green theme)
 # none: Neutral announcements with no specific severity (gray theme, default if none are specified)
 announcements:
-  - timestamp: 2026-06-22T9:00:00.000+00:00
+  - timestamp: 2026-07-06T8:00:00.000+00:00
     type: outage
+    message: | 
+      Cloud Outage Week: We are performing essential maintenance this week between Monday 6th until Friday 10th July (inclusive) - you may find that OpenStack services and/or virtual machines will be offline and unavailable at times during this week. Read more here: https://stfc.atlassian.net/wiki/spaces/CLOUDKB/pages/1176436850/Advanced+notice+of+upcoming+July+2026+outage+work    
+  - timestamp: 2026-06-22T9:00:00.000+00:00
+    type: information
     message: |
       Cinder Volume I/O and FSCK Issues: We are aware of an incident where cinder volumes are failing to mount or are experiencing I/O issues with blocked writes following the RAL power incident. If you are experiencing this please open a ticket to cloud-support@stfc.ac.uk with the volume ID and Name   
+    archived: true
   - timestamp: 2026-06-19T9:00:00.000+00:00
     type: information
     message: |
       RAL Power Blip: We have recovered from data-centre power incident that occurred 18/06/2026. You may find your VMs are shutoff, you are free to start them up yourselves. Please open a ticket to cloud-support@stfc.ac.uk if you are experiencing any issues 
+    archived: true
   - timestamp: 2026-04-29T12:00:00.000+00:00
     type: information
     message: |
       Upcoming planned outage work for essential maintenance between the 6th and the 10th of July (inclusive), as per our list of important upcoming dates: https://stfc.atlassian.net/wiki/spaces/CLOUDKB/pages/982548867/Important+DatesDuring this window. OpenStack services and/or virtual machines will be offline and unavailable. Users should make alternative arrangements in advance for this entire maintenance window.
+    archived: true
   - timestamp: 2026-03-18T12:00:00.000+00:00
     type: information
     message : |
