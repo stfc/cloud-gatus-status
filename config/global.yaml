@@ -21,10 +21,15 @@ ui:
 # operational: Indicates resolved issues or normal operations (green theme)
 # none: Neutral announcements with no specific severity (gray theme, default if none are specified)
 announcements:
+  - timestamp: 2026-07-10T15:00:00.000+00:00
+    type: information
+    message: | 
+      Cloud Outage Week: We are pleased to inform that all outage work has been completed and services have been restored. Users are reminded that they are responsible for starting their VMs now that the outage has been completed. If you have any feedback or issues please let us know at cloud-support@stfc.ac.uk    
   - timestamp: 2026-07-06T8:00:00.000+00:00
     type: outage
     message: | 
       Cloud Outage Week: We are performing essential maintenance this week between Monday 6th until Friday 10th July (inclusive) - you may find that OpenStack services and/or virtual machines will be offline and unavailable at times during this week. Read more here: https://stfc.atlassian.net/wiki/spaces/CLOUDKB/pages/1176436850/Advanced+notice+of+upcoming+July+2026+outage+work    
+    archived: true
   - timestamp: 2026-06-22T9:00:00.000+00:00
     type: information
     message: |
