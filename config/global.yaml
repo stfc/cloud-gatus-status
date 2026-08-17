@@ -24,7 +24,8 @@ announcements:
   - timestamp: 2026-07-10T15:00:00.000+00:00
     type: information
     message: | 
-      Cloud Outage Week: We are pleased to inform that all outage work has been completed and services have been restored. Users are reminded that they are responsible for starting their VMs now that the outage has been completed. If you have any feedback or issues please let us know at cloud-support@stfc.ac.uk    
+      Cloud Outage Week: We are pleased to inform that all outage work has been completed and services have been restored. Users are reminded that they are responsible for starting their VMs now that the outage has been completed. If you have any feedback or issues please let us know at cloud-support@stfc.ac.uk
+    archived: true
   - timestamp: 2026-07-06T8:00:00.000+00:00
     type: outage
     message: | 
