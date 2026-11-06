@@ -1,6 +1,6 @@
 defaults-openstack: &defaults_openstack
   group: OpenStack
-  interval: 5m
+  interval: 1m
   ui:
     hide-hostname: true
     hide-port: true
