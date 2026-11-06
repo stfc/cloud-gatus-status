@@ -1,6 +1,6 @@
 defaults-cloud-services: &defaults_cloud_services
     group: Cloud Services
-    interval: 5m
+    interval: 1m
     ui:
         hide-conditions: true
     conditions:
